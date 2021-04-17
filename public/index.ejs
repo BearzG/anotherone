@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store - Tickets</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+
+    <div class="App">
+        <div class="Container">
+            <div class="global">
+                <div class="title">
+                    <h1>Products Storage</h1>
+                </div>
+                <div class="boxes">
+                    <div class="Columns">
+                        <div class="Columns-id text"  >
+                            <p>Id</p>
+                        </div>
+                        <div class="Columns-product text">
+                            <p>Product</p>
+                        </div>
+                        <div class="Columns-price text">
+                            <p>Price</p>
+                        </div>
+                        <div class="Columns-Trademark text">
+                            <p>Trademark</p>
+                        </div>
+                    </div>
+                    <div class="sep"></div>
+                </div>
+                <% for (elm in data) { %>
+                    <div class="rows">
+                        <div class="rows-results">
+                            <p><%= data[elm].id %></p>
+                            <p><%= data[elm].Product %></p>
+                            <p><%= data[elm].Price %></p>
+                            <p><%= data[elm].Trademark %></p>
+                        </div>
+                    </div>
+                <% } %>
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>

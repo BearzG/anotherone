@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+}
+
+.App {
+    height: 100vh;
+    background: #121212
+}
+
+.Container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sep {
+    height: 7px;
+    background: #fff;
+}
+
+p {
+    padding: 10px;
+}
+
+.boxes {
+    /* position: absolute;
+    top: 20px; */
+}
+
+.Columns {
+    display: flex;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 3px solid #fff;
+}
+
+.text {
+    color: #fff;
+    margin: 20px 30px;
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.rows-results {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+}
+
+.rows-results p {
+    margin: 13px 26px;
+    padding: 10px 15px;
+}
+
+.rows {
+    margin: 15px 0;
+    border-radius: 10px;
+    border: 3px solid #fff;
+}
+
+.title {
+    margin: 5px;
+    text-align: center;
+}
+
+.title h1 {
+    color: #fff;
+}
+
